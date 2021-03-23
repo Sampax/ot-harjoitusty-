@@ -14,3 +14,5 @@ kurssit
                     └── maksukortti_test.py
 
 5 directories, 7 files
+
+Tämä rivi lisätty suoraan githubissa, toivottavasti kukaan ei oikeasti opi tekemään muutoksia näin
