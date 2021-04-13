@@ -1,17 +1,28 @@
-# Ohjelmistotekniikan harjoitustyö
+# Meili matkasuunnittelusovellus
 
-Tämä on kevään 2021 ohjelmistotekniikan harjoitustyö. Dokumentaatio tarkentuu kunhan projekti etenee.
-## Viikko1
-[gitlox.txt](/laskarit/viikko1/gitlog.txt)
+Tämä on kevään 2021 ohjelmistotekniikan harjoitustyö. Sovelluksen avulla käyttäjien on mahdollista etsiä tietoa maailman maista ja laatia matkasuunnitelmia alustavine aika- ja bujettiarvioineen.
 
-[komentorivi.txt](/laskarit/viikko1/komentorivi.txt)
 
-## Tämä on väliotsikko
+## Dokumentaatio
+ * [Vaatimusmäärittely](/dokumentaatio/vaatimusmaarittely.md)
+ * [Työaikakirjanpito](/dokumentaatio/tyoaikakirjanpito.md)
 
-moi _mluukkai_ tämä on aika tuttua hommaa. [Click](https://en.wikipedia.org/wiki/Project_Cybersyn)
-
-```js
-console.log('yo wadups!')
+## Asennus
+```shell
+poetry install
 ```
-## Tämä on lokaali muutos
-Siihen tulee vähän lisää tekstiä
+
+## Käynnistys
+```shell
+poetry run invoke start
+```
+
+## Testaus
+```shell
+poetry run invoke test
+```
+
+Testikattavuuden tarkistamiseksi aja
+```shell
+poetry run invoke coverage_report
+```
