@@ -1,3 +1,4 @@
+.DS_Store
 roskat
 **/__pycache__/**
 **/.pytest_cache/**
